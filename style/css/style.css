@@ -1,0 +1,142 @@
+@keyframes slideIn {
+  0% {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+body {
+  background-color: black;
+  color: white;
+  font-family: "Arial", sans-serif;
+}
+
+header {
+  background-color: #1F0021;
+  padding: 10px;
+  text-align: center;
+}
+header a {
+  color: white;
+  text-decoration: none;
+  margin-right: 10px;
+}
+header a:hover {
+  text-decoration: underline;
+}
+
+.section {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.section .tituloPrincipal {
+  color: white;
+  animation: slideIn 1s ease;
+  background-color: #1F0021;
+  padding: 10px;
+}
+.section .tituloPrincipal a.btn {
+  margin-top: 10px;
+  background-color: red;
+}
+
+.section-fotos {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.section-fotos .subtituloIndex {
+  color: white;
+  background-color: #751006;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 20px;
+}
+.section-fotos .row {
+  margin-left: 0;
+  margin-right: 0;
+}
+.section-fotos .row .col {
+  padding: 0 15px;
+  margin-bottom: 20px;
+}
+.section-fotos .row .col h2 {
+  color: white;
+}
+.section-fotos .row .col img {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
+
+.section-carrusel {
+  text-align: center;
+}
+.section-carrusel .carousel-inner {
+  height: 300px;
+}
+.section-carrusel .carousel-inner .carousel-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.section-formulario {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.section-formulario .titulo-info {
+  color: white;
+  background-color: #1F0021;
+  padding: 15px;
+  margin-right: 20px;
+}
+.section-formulario .titulo-info.container {
+  margin: 0;
+}
+.section-formulario form label {
+  color: white;
+  margin-bottom: 10px;
+}
+.section-formulario form input[type=text] {
+  width: 100%;
+  padding: 5px;
+  border-radius: 4px;
+}
+.section-formulario form .btn-primary {
+  background-color: red;
+  border: none;
+  padding: 10px 20px;
+  color: white;
+  cursor: pointer;
+}
+
+.section-experiencia {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.section-experiencia .tituloPrincipal {
+  color: white;
+  background-color: #1F0021;
+  padding: 10px;
+}
+.section-experiencia .tituloPrincipal a.btn {
+  margin-top: 10px;
+  background-color: red;
+}
+
+footer {
+  background-color: #1F0021;
+  padding: 20px;
+  text-align: center;
+  font-size: 14px;
+}
+footer p {
+  margin-bottom: 10px;
+}
+
+/*# sourceMappingURL=style.css.map */
